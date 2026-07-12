@@ -1,0 +1,369 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+header{
+    background-color:#0b3558;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding:15px 30px;
+}
+.logo img{
+    width:70px;
+    height:70px;
+    margin: right 20px;
+}
+.title{
+    text-align:center;
+}
+.title{
+    margin-left:200px;
+}
+.title h1{
+    font: size 32px;
+}
+.title h2{
+    color:#ff6b4a;
+    font-size:22px;
+    margin-top:5px;
+}
+nav{
+    background-color:#0b5d89;
+    height:40px;
+}
+nav ul{
+    list-style-type:none;
+    text-align:center;
+    padding-top:10px;
+}
+nav ul li{
+    display:inline;
+    margin-right:30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color:yellow;
+}
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+.banner video{
+    width: 100%;
+    height: 800px;
+    display: block;
+    object-fit: cover;
+}
+
+.banner h2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+    opacity: 0.4;
+    text-align: center;
+    width: 100%;
+}
+.stats{
+    text-align:center;
+    margin-top:30px;
+}
+.box{
+    display:inline-block;
+    width:170px;
+    height:80px;
+    margin:20px;
+    padding-top:15px;
+    border:1px solid gray;
+    border-radius:8px;
+    background-color:white;
+}
+.box h2{
+    color:#333;
+}
+.box p{
+    color:gray;
+    font-size:15px;
+}
+.welcome{
+    background-color:#0b3558;
+    height:40px;
+    border-top:2px solid orange;
+    border-bottom:2px solid orange;
+}
+
+.welcome marquee{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    line-height:40px;
+}
+footer{
+    background-color:#0b3558;
+    color:white;
+    text-align:center;
+    height:50px;
+    line-height:50px;
+    margin-top:30px;
+}
+.box{
+    box-shadow:2px 2px 5px gray;
+}
+.map{
+    text-align:center;
+    margin-top:30px;
+}
+
+.map h2{
+    color:#0b3558;
+    margin-bottom:15px;
+    font-size:30px;
+}
+.map iframe{
+    width:90%;
+    height:400px;
+}
+.contact {
+    margin: 20px;
+}
+.contact h2 {
+    color: #0b3558;
+    margin-bottom: 10px;
+}
+.contact p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.map {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.map iframe {
+    width: 600px;
+    height: 350px;
+    border: 2px solid gray;
+}
+.about {
+    width: 85%;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+.about h2 {
+    color: #0b3558;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about p {
+    text-align: justify;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.about h3 {
+    color: #0b5d89;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.about ul {
+    margin-left: 25px;
+}
+.about li {
+    margin-bottom: 10px;
+}
+.heading {
+    text-align: center;
+    color: #0b3558;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+}
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+legend {
+    font-weight: bold;
+    color: #0b3558;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=number],
+input[type=date],
+input[type=time],
+input[type=datetime-local],
+input[type=url],
+input[type=search],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+input[type=checkbox],
+input[type=radio] {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+input[type=range] {
+    width: 100%;
+}
+input[type=file] {
+    margin-top: 10px;
+}
+input[type=submit],
+input[type=reset] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0b5d89;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #083b66;
+}
+.success {
+    width: 700px;
+    margin: 30px auto;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+}
+.success h2 {
+    color: green;
+}
+.success h3 {
+    color: #0b3558;
+    margin-top: 10px;
+}
+.success p {
+    margin: 20px;
+}
+.note {
+    background: #fff8e7;
+    border-left: 5px solid orange;
+    text-align: left;
+    padding: 15px;
+}
+.note h4 {
+    color: red;
+    margin-bottom: 10px;
+}
+.note ul {
+    margin-left: 20px;
+}
+.heading {
+    text-align: center;
+    color: #0b3558;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+form {
+    width: 400px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px gray;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0b3558;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #08456e;
+}
+.company {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.company th {
+    background: #0b5d89;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.company td {
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.placement {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    padding: 15px;
+    background: #0b3558;
+    color: white;
+    border-radius: 8px;
+}
+.card h2 {
+    color: orange;
+}
+.card p {
+    margin-top: 5px;
+}
